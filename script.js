@@ -1,12 +1,15 @@
-// Con funciones
+// Con funciones y loop
 
-function sumArray([num1,num2,num3]) {
-      num1; num2; num3;
-    let sumar = [num1, num2, num3];
-     console.log(sumar[0]+sumar[1]+sumar[2])
+function sumArray(suma1,suma2) {
+    var iteracion = 0;
+    while (suma1+suma2>iteracion) {
+      iteracion +=suma1+suma2;
+      console.log(iteracion)
+    }
    
-    return sumar;
 }
+sumArray(-5,100)
+
 
 sumArray([1,2,3]) // 6
 
