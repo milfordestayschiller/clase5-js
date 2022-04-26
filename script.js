@@ -2,7 +2,7 @@
 
 var sumar = 0 
 function sumArray(valores){
-    for (i = 0;  valores.length >i ; i +=1) {
+    for (i = 0;  valores.length >i ; i++) {
     sumar += valores[i]
      }
    console.log(sumar) 
