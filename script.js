@@ -1,14 +1,15 @@
 // Con funciones y loop
 
-function sumArray(suma1,suma2) {
-    var iteracion = 0;
-    while (suma1+suma2>iteracion) {
-      iteracion +=suma1+suma2;
-      console.log(iteracion)
-    }
-   
-}
-sumArray(-5,100)
+var sumar = 0 
+function sumArray(valores){
+    for (i = 0;  valores.length >i ; i +=1) {
+    sumar += valores[i]
+     }
+   console.log(sumar) 
+   return sumar
+  }
+  sumArray([7,6]); 
+
 
 
 sumArray([1,2,3]) // 6
